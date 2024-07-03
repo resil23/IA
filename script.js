@@ -18,3 +18,12 @@ const perguntas = [
         alternativas: ["Eu não acredito no aquecimento global é fake news! Eu me importo com uma profissão rentável!", "Eu acredito no aquecimento global e vou me focar em profissões tecnológicas que ajudem na mitigação!"]
     },
 ];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta( ){
+    perguntaAtual = pergunta [atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+mostraPergunta();
