@@ -1,12 +1,12 @@
-:root {
+:root{
     --cor-fundo: #01080E;
-    --cor-principal: #0B0D20;
+    --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
 }
 
-body {
+body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-.caixa-principal {
+.caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
     max-width: 600px;
@@ -23,25 +23,32 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1{
     color: var(--cor-destaque);
 }
 
-.caixa-perguntas {
+.caixa-perguntas{
     padding-bottom: 10px;
 }
 
-GABRIELLA ROMANCINI WESOLOWSKI 19:34 grupo 3:root {
+:root{
     --cor-fundo: #01080E;
-    --cor-principal: #0B0D20;
+    --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
 }
 
-button {
+button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
     padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
